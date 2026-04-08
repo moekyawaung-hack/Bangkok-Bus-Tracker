@@ -1,0 +1,9 @@
+import sqlite3
+
+def load_tile(z, x, y, mbtiles_path):
+    conn = sqlite3.connect(mbtiles_path)
+    cur = conn.cursor()
+    cur.execute("SELECT tile_data FROM tiles WHERE zoom_level=? AND tile_column=? AND tile_row=?", (z, x, y))
+    row = cur.fetchone()
+    conn.close()
+    return row[0] if row else None
