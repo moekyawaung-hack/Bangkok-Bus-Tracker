@@ -1,0 +1,38 @@
+bangkok-bus-tracker/
+│
+├── README.md
+├── requirements.txt
+├── config/
+│   ├── settings.py
+│   ├── languages.json
+│   └── api_keys.json
+│
+├── data/
+│   ├── bus_routes.json          # Real Bangkok bus routes
+│   ├── stops.json               # Bus stops
+│   ├── gtfs/                    # GTFS static data
+│   └── maps/
+│       ├── bangkok.mbtiles      # Offline map tiles
+│       └── map_style.json
+│
+├── backend/
+│   ├── __init__.py
+│   ├── loader.py                # JSON/DB loader
+│   ├── gtfs_live.py             # Live GTFS API
+│   ├── routing.py               # Route engine
+│   ├── map_engine.py            # Offline map renderer
+│   └── translator.py            # EN/MM/TH text engine
+│
+├── mobile/
+│   ├── kivy_app.py              # Kivy Android UI
+│   ├── screens/
+│   │   ├── home.kv
+│   │   ├── search.kv
+│   │   ├── route_detail.kv
+│   │   └── map_view.kv
+│   └── assets/
+│       ├── icons/
+│       └── fonts/
+│
+└── cli/
+    └── bus_cli.py               # Console version
