@@ -1,0 +1,5 @@
+{
+  "samrong": { "name_en": "Samrong", "name_th": "สำโรง", "name_mm": "ဆမ်ရုံ", "lat": 13.646, "lon": 100.599 },
+  "asok":    { "name_en": "Asok", "name_th": "อโศก", "name_mm": "အာဆုတ်", "lat": 13.737, "lon": 100.560 },
+  "siam":    { "name_en": "Siam", "name_th": "สยาม", "name_mm": "ဆိုင်ယမ်", "lat": 13.746, "lon": 100.534 }
+}
