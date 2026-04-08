@@ -1,0 +1,35 @@
+{
+  "en": {
+    "title": "Bangkok City Bus Guide",
+    "search_route": "Search Route",
+    "from": "From",
+    "to": "To",
+    "find": "Find",
+    "no_route": "No route found",
+    "enter_bus": "Enter bus number: ",
+    "not_found": "No data for this bus yet.",
+    "none": "No suggestion in sample data."
+  },
+  "mm": {
+    "title": "ဘန်ကောက် မြို့တွင်း ဘတ်စ်လမ်းညွှန်",
+    "search_route": "လမ်းကြောင်းရှာမယ်",
+    "from": "မှ",
+    "to": "သို့",
+    "find": "ရှာမယ်",
+    "no_route": "လမ်းကြောင်း မတွေ့ပါ",
+    "enter_bus": "ဘတ်စ်နံပါတ် ထည့်ပါ: ",
+    "not_found": "ဒီဘတ်စ်နံပါတ်အတွက် ဒေတာမရှိသေးပါ။",
+    "none": "sample data ထဲမှာ မတွေ့ရပါ။"
+  },
+  "th": {
+    "title": "คู่มือรถเมล์กรุงเทพฯ",
+    "search_route": "ค้นหาเส้นทาง",
+    "from": "จาก",
+    "to": "ไป",
+    "find": "ค้นหา",
+    "no_route": "ไม่พบเส้นทาง",
+    "enter_bus": "ใส่สายรถเมล์: ",
+    "not_found": "ยังไม่มีข้อมูลสายนี้ในตัวอย่าง.",
+    "none": "ไม่มีคำแนะนำในข้อมูลตัวอย่าง."
+  }
+}
