@@ -1,0 +1,22 @@
+{
+  "2": {
+    "name": "Samrong – Sanam Luang",
+    "operator": "BMTA",
+    "segments": [
+      ["Samrong", "Asok"],
+      ["Asok", "Siam"],
+      ["Siam", "Sanam Luang"]
+    ],
+    "stops": ["samrong", "bearing", "bangna", "on_nut", "phra_khanong", "ekkamai", "thong_lo", "phrom_phong", "asok", "nana", "ploen_chit", "chit_lom", "siam", "ratchathewi", "phaya_thai", "victory_monument", "democracy_monument", "sanam_luang"]
+  },
+  "8": {
+    "name": "Happy Land – Memorial Bridge",
+    "operator": "BMTA",
+    "segments": [
+      ["Happy Land", "Lat Phrao"],
+      ["Lat Phrao", "Victory Monument"],
+      ["Victory Monument", "Memorial Bridge"]
+    ],
+    "stops": ["happy_land", "lat_phrao", "mo_chit", "saphan_kwai", "ari", "sanam_pao", "victory_monument", "ratchathewi", "national_stadium", "saphan_phut"]
+  }
+}
